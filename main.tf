@@ -54,7 +54,7 @@ output "server_ip" {
   value = digitalocean_droplet.jenkins.ipv4_address
 }
 
-resource "local_file" "name" {
+resource "local_file" "kube_config" {
   content = digitalocean_kubernetes_cluster.k8s.kube_config.0.raw_config
   filename = "k8s_config.yaml"
 }
