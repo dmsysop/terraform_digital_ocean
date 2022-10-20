@@ -1,3 +1,3 @@
-do_token     = "dop_v1_c36e015f8c7740a93db778da19eadfd24b6624503e944972e044457739fd3fca"
+do_token     = "your token api"
 region       = "nyc1"
-ssh_key_name = "DMSysOp"
+ssh_key_name = "your ssh key name"
